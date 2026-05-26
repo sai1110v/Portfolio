@@ -22,7 +22,7 @@ const Projects = ({ darkMode }) => {
       image: portfolioImg,
 
       live:
-        "#",
+        "https://myportfolio-sai35.vercel.app/",
     },
   ];
 

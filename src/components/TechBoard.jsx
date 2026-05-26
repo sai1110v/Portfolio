@@ -119,7 +119,7 @@ const TechBoard = () => {
     <motion.div
 
       animate={{
-        y: [0, -20, 0],
+        y: [0, -15, 0],
       }}
 
       transition={{
@@ -128,7 +128,7 @@ const TechBoard = () => {
         ease: "easeInOut",
       }}
 
-      className="relative"
+      className="relative scale-90"
     >
 
       <Tilt
@@ -144,10 +144,16 @@ const TechBoard = () => {
 
         gyroscope={true}
 
-        className="bg-[#0b0b0b] rounded-[35px] p-7 border border-red-500/10 shadow-[0_0_80px_rgba(255,0,0,0.12)]"
+        className="
+        bg-[#0b0b0b]
+        rounded-[30px]
+        p-1
+        border border-red-500/10
+        shadow-[0_0_60px_rgba(255,0,0,0.12)]
+      "
       >
 
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-4 gap-4">
 
           {techIcons.map((item, index) => (
 
@@ -156,15 +162,25 @@ const TechBoard = () => {
               key={index}
 
               whileHover={{
-                scale: 1.15,
-                rotate: 6,
+                scale: 1.12,
+                rotate: 5,
               }}
 
-              className="w-20 h-20 bg-[#111] rounded-2xl flex items-center justify-center shadow-lg border border-white/5"
+              className="
+              w-5
+              h-5
+              bg-[#111]
+              rounded-2xl
+              flex
+              items-center
+              justify-center
+              shadow-lg
+              border border-white/5
+            "
             >
 
               <div
-                className={`text-4xl ${item.color}`}
+                className={`text-3xl ${item.color}`}
               >
                 {item.icon}
               </div>

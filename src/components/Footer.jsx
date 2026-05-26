@@ -1,9 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="h-20 bg-black text-white flex items-center justify-center">
-      <p>
-        © 2026 Sai Portfolio
+    <footer className="w-full py-6 bg-black border-t border-white/10 flex items-center justify-center">
+
+      <p className="text-gray-400 text-sm tracking-wide">
+        © 2026 Sai Vegisetti Portfolio. All Rights Reserved.
       </p>
+
     </footer>
   );
 };
