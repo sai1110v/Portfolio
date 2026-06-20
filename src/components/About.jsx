@@ -98,9 +98,9 @@ const About = ({ darkMode }) => {
 
             {/* Paragraph 2 */}
             <p>
-              I have hands-on experience in full-stack web development, database management, and AI-based applications using APIs and modern technologies. My skills include Python, JavaScript, SQL, MongoDB, MERN stack technologies.
+              I have hands-on experience in full-stack web development, database management, and AI-based applications using APIs and modern technologies. My skills include Python,Java, JavaScript, SQL, MongoDB, MERN stack technologies.
                <span className="font-bold text-red-500">
-                I'm also CERTIFIED IN SERVICENOW ADMINISTRATION  (CSA Certification).
+                Certified ServiceNow Professional with CSA (Certified System Administrator) and CAD (Certified Application Developer) certifications.
               </span>
             </p>
 

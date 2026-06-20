@@ -72,6 +72,13 @@ const Skills = ({ darkMode }) => {
 
       file: "https://drive.google.com/file/d/1Zo4Io8gjdcwpPG3kfBZZ6Iix1c4wklxv/view?usp=sharing",
     },
+     {
+      title: "ServiceNow Certified Application Developer",
+      issuer: "ServiceNow",
+      year: "2026",
+
+      file: "https://drive.google.com/file/d/1xB6pbT8mXfQSXsmLNIAnt-6n8VUPsqlG/view?usp=sharing",
+    },
 
     {
       title: "Machine Learning for Core Engineering Disciplines",

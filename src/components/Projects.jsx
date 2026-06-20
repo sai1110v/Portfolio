@@ -1,5 +1,6 @@
 import eatlyImg from "../assets/eatly.png";
 import portfolioImg from "../assets/portfolio.png";
+import calcImg from "../assets/calc.png";
 
 const Projects = ({ darkMode }) => {
 
@@ -23,6 +24,15 @@ const Projects = ({ darkMode }) => {
 
       live:
         "https://myportfolio-sai35.vercel.app/",
+    },
+     {
+      title: "Modern calculator",
+      category: "Multi-Calc",
+
+      image: calcImg,
+
+      live:
+        "https://modern-calculator-sai35.vercel.app/",
     },
   ];
 
