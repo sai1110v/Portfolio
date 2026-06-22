@@ -32,7 +32,7 @@ const Projects = ({ darkMode }) => {
       image: calcImg,
 
       live:
-        "https://modern-calculator-sai35.vercel.app/",
+        "https://modern-calculator-steel.vercel.app/",
     },
   ];
 
